@@ -35,31 +35,29 @@ import java.util.List;
  * 起始索引等于 2 的子串是 "ab", 它是 "ab" 的字母异位词。
  */
 public class Q438_找到字符串中所有字母异位词 {
-    public static void main(String[] args) {
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Long.MAX_VALUE);
-    }
-
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
-        if (s.length() < p.length())
-            return result;
-        int[] map = new int[26];
-        for (char ch : p.toCharArray())
-            map[ch - 'a']++;
+        int[] arr = new int[26];
+        for (char c : p.toCharArray()) {
+            arr[c - 'a']++;
+        }
+        char[] sArr = s.toCharArray();
+        int l = 0;
+        int r = 0;
         int count = p.length();
-        int left = 0, right = 0;
-        char[] ss = s.toCharArray();
-        while (right < s.length()) {
-            if (map[ss[right] - 'a']-- >= 1)
+        while (r < s.length()) {
+            if (arr[sArr[r] - 'a']-- >= 1) {
                 count--;
-            right++;
-            if (count == 0)
-                result.add(left);
-            if (right - left == p.length()) {
-                if (map[ss[left] - 'a']++ >= 0)
+            }
+            r++;
+            if (count == 0) {
+                result.add(l);
+            }
+            if (r - l == p.length()) {
+                if (arr[sArr[l] - 'a']++ >= 0) {
                     count++;
-                left++;
+                }
+                l++;
             }
         }
         return result;

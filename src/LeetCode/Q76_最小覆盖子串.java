@@ -1,5 +1,7 @@
 package LeetCode;
 
+import java.util.concurrent.locks.ReentrantReadWriteLock;
+
 /**
  * @author zhangjia
  * @title: Q76_最小覆盖子串
@@ -33,8 +35,7 @@ public class Q76_最小覆盖子串 {
         int count = 0;//保存窗口里已经找到了多少字符
         int min = m + 1;
         while (L <= m - n && R < m) {
-            map[S[R]]--;
-            if (map[S[R]] >= 0) {
+            if (map[S[R]]-- >= 1) {
                 count++;
             }
             if (count == n) {
