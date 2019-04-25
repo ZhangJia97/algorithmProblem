@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa133ae-e3f3-4dcd-9b09-9fb2cb5a6f93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q2_两数相加.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q83_删除排序链表中的重复元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q86_分隔链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q92_反转链表II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q242_有效的字母异位词.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q242_有效的字母异位词.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q290_单词模式.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q290_单词模式.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q350_两个数组的交集II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q350_两个数组的交集II.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q438_找到字符串中所有字母异位词.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q438_找到字符串中所有字母异位词.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q438_找到字符串中所有字母异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q438_找到字符串中所有字母异位词.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q76_最小覆盖子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q76_最小覆盖子串.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeetCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,44 +24,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="390">
-                <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+              <first_editor relative-caret-position="176">
+                <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q49_字母异位词分组.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q25_k个一组翻转链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q454_四数相加II.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q24_两两交换链表中的节点.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q16_最接近的三数之和.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q21_合并两个有序链表.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q82_删除排序链表中的重复元素II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -63,30 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Q18_四数之和.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#255#270#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q1_两数之和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q15_三数之和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="-255">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,19 +85,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q451_根据字符出现频率排序.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q203_移除链表元素.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q290_单词模式.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q2_两数相加.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="527">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q445_两数相加II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,12 +115,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Q202_快乐数.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/comm/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,20 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/剑指Offer/Solution3.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/Solution3_1.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/Solution4.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/数组中的重复数字.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/不修改数组找出重复的数字.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/二维数组中的查找.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/Q1_数组中的重复数字.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/Q3_数组中的重复数字.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/Q3_1_不修改数组找出重复的数字.java" />
-        <option value="$PROJECT_DIR$/src/剑指Offer/Q4_二维数组中的查找.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode2018高频面试题/只出现一次的数字.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode2018高频面试题/求众数.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode2018高频面试题/README.md" />
         <option value="$PROJECT_DIR$/src/LeetCode2018高频面试题/Q1_1_只出现一次的数字.java" />
         <option value="$PROJECT_DIR$/src/LeetCode2018高频面试题/Q1_2_求众数.java" />
         <option value="$PROJECT_DIR$/src/LeetCode2018高频面试题/Q1_3_搜索二维矩阵II.java" />
@@ -188,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Q438_找到字符串中所有字母异位词.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q76_最小覆盖子串.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q350_两个数组的交集II.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q349_两个数组的交集.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q202_快乐数.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q290_单词模式.java" />
@@ -198,14 +183,31 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Q18_四数之和.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q16_最接近的三数之和.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Q454_四数相加II.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q49_字母异位词分组.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q447_回旋镖的数量.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q220_存在重复元素III.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q219_存在重复元素II.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q206_反转链表.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/comm/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q86_分隔链表.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q83_删除排序链表中的重复元素.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q92_反转链表II.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/comm/Q2_两数相加.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q2_两数相加.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q203_移除链表元素.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q445_两数相加II.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q82_删除排序链表中的重复元素II.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q21_合并两个有序链表.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q24_两两交换链表中的节点.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Q25_k个一组翻转链表.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,27 +237,21 @@
               <item name="algorithmProblem" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithmProblem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode2018高频面试题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithmProblem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithmProblem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="剑指Offer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555948912099" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556200159350" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,7 +265,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q290_单词模式">
+  <component name="RunManager" selected="Application.Q242_有效的字母异位词">
+    <configuration name="Q242_有效的字母异位词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Q242_有效的字母异位词" />
+      <module name="algorithmProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q290_单词模式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Q290_单词模式" />
       <module name="algorithmProblem" />
@@ -285,19 +294,6 @@
     </configuration>
     <configuration name="Q350_两个数组的交集II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Q350_两个数组的交集II" />
-      <module name="algorithmProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q438_找到字符串中所有字母异位词" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Q438_找到字符串中所有字母异位词" />
       <module name="algorithmProblem" />
       <extension name="coverage">
         <pattern>
@@ -337,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q242_有效的字母异位词" />
         <item itemvalue="Application.Q290_单词模式" />
         <item itemvalue="Application.Q350_两个数组的交集II" />
         <item itemvalue="Application.Testsss" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Q438_找到字符串中所有字母异位词" />
       </list>
     </recent_temporary>
   </component>
@@ -357,12 +353,18 @@
       <updated>1555318451157</updated>
       <workItem from="1555318456247" duration="1156000" />
       <workItem from="1555394295171" duration="15147000" />
-      <workItem from="1555918545190" duration="10667000" />
+      <workItem from="1555918545190" duration="13712000" />
+      <workItem from="1556157832492" duration="5164000" />
+      <workItem from="1556181094951" duration="296000" />
+      <workItem from="1556181452112" duration="34000" />
+      <workItem from="1556181534812" duration="3040000" />
+      <workItem from="1556190788236" duration="41000" />
+      <workItem from="1556190905936" duration="2946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26970000" />
+    <option name="totallyTimeSpent" value="41536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,8 +377,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25686592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28109854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,7 +388,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28915662" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32465753" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32465753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,59 +444,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/xyz/suiwo/Main.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/Q3_数组中的重复数字.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/剑指Offer/Q4_二维数组中的查找.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q75_颜色分类.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q80_删除排序数组中的重复项II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q88_合并两个有序数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q167_两数之和II_输入有序数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Q215_数组中的第K个最大元素.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -572,23 +522,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/a.txt" />
-    <entry file="file://$PROJECT_DIR$/src/LeetCode2018高频面试题/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q27_移除元素.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode2018高频面试题/README.md" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Q209_长度最小的子数组.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -607,27 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q3_无重复字符的最长子串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q76_最小覆盖子串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -658,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q202_快乐数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Q290_单词模式.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -692,16 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q15_三数之和.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Q16_最接近的三数之和.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -709,20 +602,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q18_四数之和.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q76_最小覆盖子串.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="629">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q80_删除排序数组中的重复项II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q88_合并两个有序数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q202_快乐数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#255#270#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q3_无重复字符的最长子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q27_移除元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q49_字母异位词分组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Q454_四数相加II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -730,11 +680,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q15_三数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q447_回旋镖的数量.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q86_分隔链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q220_存在重复元素III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q83_删除排序链表中的重复元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q219_存在重复元素II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q206_反转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q92_反转链表II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/comm/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q2_两数相加.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q18_四数之和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q203_移除链表元素.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q445_两数相加II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q82_删除排序链表中的重复元素II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q21_合并两个有序链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q24_两两交换链表中的节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Q25_k个一组翻转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/README.md">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="44" column="27" lean-forward="true" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <first_editor relative-caret-position="176">
+            <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
