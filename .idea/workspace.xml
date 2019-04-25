@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fa133ae-e3f3-4dcd-9b09-9fb2cb5a6f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q2_两数相加.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q83_删除排序链表中的重复元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q86_分隔链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Q92_反转链表II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q242_有效的字母异位词.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q242_有效的字母异位词.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q290_单词模式.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q290_单词模式.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q350_两个数组的交集II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q350_两个数组的交集II.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q438_找到字符串中所有字母异位词.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q438_找到字符串中所有字母异位词.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q242_有效的字母异位词.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="6fa133ae-e3f3-4dcd-9b09-9fb2cb5a6f93" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,7 +237,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556200159350" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556204124564" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RunDashboard">
@@ -359,12 +349,12 @@
       <workItem from="1556181452112" duration="34000" />
       <workItem from="1556181534812" duration="3040000" />
       <workItem from="1556190788236" duration="41000" />
-      <workItem from="1556190905936" duration="2946000" />
+      <workItem from="1556190905936" duration="3222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41536000" />
+    <option name="totallyTimeSpent" value="41812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,7 +367,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28109854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

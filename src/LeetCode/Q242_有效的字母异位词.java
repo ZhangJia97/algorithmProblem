@@ -23,13 +23,14 @@ package LeetCode;
  */
 public class Q242_有效的字母异位词 {
     public static void main(String args[]) {
-        String s1="abc" + "def";
-        String s2=new String(s1);
-        if(s1 == s2)
+        String s1 = "abc" + "def";
+        String s2 = new String(s1);
+        if (s1 == s2)
             System.out.println("===succeed===");
-                    if(s1.equals(s2))
+        if (s1.equals(s2))
             System.out.println("===equals() succeed===");
     }
+
     static void print() {
         System.out.print("DP");
     }
