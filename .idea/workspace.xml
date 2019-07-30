@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103befca-cdc9-44b9-89e6-345df182f237" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q36_有效的数独.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q36_有效的数独.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q82_删除排序链表中的重复元素II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q82_删除排序链表中的重复元素II.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode2018高频面试题/Q1_1_只出现一次的数字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode2018高频面试题/Q1_2_求众数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode2018高频面试题/Q1_3_搜索二维矩阵II.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode2018高频面试题/Q1_4_合并两个有序数组.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode2018高频面试题/Q3_1_验证回文串.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode2018高频面试题/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/algorithmProblem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/剑指Offer/Q3_1_不修改数组找出重复的数字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/剑指Offer/Q3_数组中的重复数字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/剑指Offer/Q4_二维数组中的查找.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="103befca-cdc9-44b9-89e6-345df182f237" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Q56_合并区间.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="144">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,15 +220,16 @@
       <workItem from="1564145252841" duration="1579000" />
       <workItem from="1564379364528" duration="3060000" />
       <workItem from="1564388645185" duration="3652000" />
-      <workItem from="1564462742800" duration="5116000" />
+      <workItem from="1564462742800" duration="5361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14396000" />
+    <option name="totallyTimeSpent" value="14641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Q56_合并区间.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
