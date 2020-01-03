@@ -37,7 +37,7 @@ public class Q76_最小覆盖子串 {
                 count++;
             }
             if (count == n) {
-                while (map[S[L]] < 0) {//L尽量往左移动
+                while (map[S[L]] < 0) {//L尽量往右移动
                     map[S[L]]++;
                     L++;
                 }

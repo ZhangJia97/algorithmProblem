@@ -1,5 +1,7 @@
 package LeetCode;
 
+import java.util.Arrays;
+
 /**
  * @author zhangjia
  * @title: Q26_删除排序数组中的重复项
@@ -20,20 +22,15 @@ package LeetCode;
  */
 public class Q26_删除排序数组中的重复项 {
     public int removeDuplicates(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
+        if(nums.length == 0 || nums.length == 1){
+            return nums.length;
         }
-        int m = 1;
-        int dNum = nums[0];
-        for (int i = 0; i < nums.length; i++) {
-            if (dNum != nums[i]) {
-                dNum = nums[i];
-                int a = nums[m];
-                nums[m] = nums[i];
-                nums[i] = a;
-                m++;
+        int l = 0;
+        for(int r = 0; r < nums.length; r++){
+            if(nums[l] != nums[r]){
+                nums[++l] = nums[r];
             }
         }
-        return m;
+        return l + 1;
     }
 }
