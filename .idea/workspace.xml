@@ -3,59 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="103befca-cdc9-44b9-89e6-345df182f237" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/Index.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q107_二叉树的层次遍历II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/LeetCode/Q107_二叉树的层次遍历II.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/Q54_螺旋矩阵.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/Q54_螺旋矩阵.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/Q55_跳跃游戏.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/Q55_跳跃游戏.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/程序员代码面试指南/Q1_设计一个有getMin功能的栈.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/程序员代码面试指南/Q1_设计一个有getMin功能的栈.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithmProblem/程序员代码面试指南/Q4_猫狗队列.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithmProblem/程序员代码面试指南/Q4_猫狗队列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q102_二叉树的层次遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q102_二叉树的层次遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q103_二叉树的锯齿形层次遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q103_二叉树的锯齿形层次遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q107_二叉树的层次遍历II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q107_二叉树的层次遍历II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q120_三角形最小路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q120_三角形最小路径和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q143_重排链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q143_重排链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q144_二叉树的前序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q144_二叉树的前序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q145_二叉树的后序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q145_二叉树的后序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q149_直线上最多的点数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q149_直线上最多的点数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q150_逆波兰表达式求值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q150_逆波兰表达式求值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q152_乘积最大子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q152_乘积最大子序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q199_二叉树的右视图.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q199_二叉树的右视图.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q19_删除链表的倒数第N个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q19_删除链表的倒数第N个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q205_同构字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q205_同构字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q20_有效的括号.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q20_有效的括号.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q215_数组中的第K个最大元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q215_数组中的第K个最大元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q217_存在重复元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q217_存在重复元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q234_回文链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q234_回文链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q237_删除链表中的节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q237_删除链表中的节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q26_删除排序数组中的重复项.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q26_删除排序数组中的重复项.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q279_完全平方数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q279_完全平方数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q283_移动零.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q283_移动零.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q28_实现strStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q28_实现strStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q29_两数相除.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q29_两数相除.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q30_串联所有单词的子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q30_串联所有单词的子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q341_扁平化嵌套列表迭代器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q341_扁平化嵌套列表迭代器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q343_整数拆分.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q343_整数拆分.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q347_前K个高频元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q347_前K个高频元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q34_在排序数组中查找元素的第一个和最后一个位置.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q34_在排序数组中查找元素的第一个和最后一个位置.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q36_有效的数独.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q36_有效的数独.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q38_报数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q38_报数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q41_缺失的第一个正数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q41_缺失的第一个正数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q53_最大子序和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q53_最大子序和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q54_螺旋矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q54_螺旋矩阵.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q55_跳跃游戏.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q55_跳跃游戏.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q56_合并区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q56_合并区间.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q61_旋转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q61_旋转链表.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q64_最小路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q64_最小路径和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q70_爬楼梯.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q70_爬楼梯.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q71_简化路径.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q71_简化路径.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Q94_二叉树的中序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Q94_二叉树的中序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q1_设计一个有getMin功能的栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q1_设计一个有getMin功能的栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q2_由两个栈组成的队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q2_由两个栈组成的队列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q3_仅用递归函数和栈操作逆序一个栈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q3_仅用递归函数和栈操作逆序一个栈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q4/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q4/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q4/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q4/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q4/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/程序员代码面试指南/Q4_猫狗队列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/程序员代码面试指南/Q4_猫狗队列.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,20 +54,7 @@
       <recent name="D:\algorithmProblem\src\LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q6_用栈来解决汉诺塔问题_非递归">
-    <configuration name="Q5_用一个栈实现另一个栈的排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="程序员代码面试指南.Q5_用一个栈实现另一个栈的排序" />
-      <module name="algorithmProblem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="程序员代码面试指南.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q7_生成窗口最大值数组">
     <configuration name="Q6_用栈来解决汉诺塔问题_递归" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="程序员代码面试指南.Q6_用栈来解决汉诺塔问题_递归" />
       <module name="algorithmProblem" />
@@ -173,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q7_生成窗口最大值数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="程序员代码面试指南.Q7_生成窗口最大值数组" />
+      <module name="algorithmProblem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="程序员代码面试指南.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q7_生成窗口最大值数组" />
         <item itemvalue="Application.Q6_用栈来解决汉诺塔问题_非递归" />
         <item itemvalue="Application.Q6_扩展_输出每个柱状态" />
         <item itemvalue="Application.Q6_扩展_基本实现_非递归" />
         <item itemvalue="Application.Q6_用栈来解决汉诺塔问题_递归" />
-        <item itemvalue="Application.Q5_用一个栈实现另一个栈的排序" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +170,7 @@
       <workItem from="1569248867464" duration="893000" />
       <workItem from="1574771388920" duration="823000" />
       <workItem from="1575109911027" duration="29000" />
-      <workItem from="1578051911610" duration="24512000" />
+      <workItem from="1578051911610" duration="27187000" />
     </task>
     <servers />
   </component>
@@ -272,25 +219,25 @@
       <screen x="-1440" y="0" width="1440" height="900" />
     </state>
     <state width="464" height="466" key="DebuggerActiveHint/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578206428897" />
-    <state width="1398" height="329" key="GridCell.Tab.0.bottom" timestamp="1578222136345">
+    <state width="1398" height="329" key="GridCell.Tab.0.bottom" timestamp="1578224631445">
       <screen x="-1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="329" key="GridCell.Tab.0.bottom/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578222136345" />
+    <state width="1398" height="329" key="GridCell.Tab.0.bottom/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578224631445" />
     <state width="1398" height="329" key="GridCell.Tab.0.bottom/0.23.1280.777/-1372.23.1372.877@-1372.23.1372.877" timestamp="1578216378928" />
-    <state width="1398" height="329" key="GridCell.Tab.0.center" timestamp="1578222136341">
+    <state width="1398" height="329" key="GridCell.Tab.0.center" timestamp="1578224631419">
       <screen x="-1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="329" key="GridCell.Tab.0.center/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578222136341" />
+    <state width="1398" height="329" key="GridCell.Tab.0.center/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578224631419" />
     <state width="1398" height="329" key="GridCell.Tab.0.center/0.23.1280.777/-1372.23.1372.877@-1372.23.1372.877" timestamp="1578216378922" />
-    <state width="1398" height="329" key="GridCell.Tab.0.left" timestamp="1578222136339">
+    <state width="1398" height="329" key="GridCell.Tab.0.left" timestamp="1578224631416">
       <screen x="-1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="329" key="GridCell.Tab.0.left/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578222136339" />
+    <state width="1398" height="329" key="GridCell.Tab.0.left/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578224631416" />
     <state width="1398" height="329" key="GridCell.Tab.0.left/0.23.1280.777/-1372.23.1372.877@-1372.23.1372.877" timestamp="1578216378920" />
-    <state width="1398" height="329" key="GridCell.Tab.0.right" timestamp="1578222136342">
+    <state width="1398" height="329" key="GridCell.Tab.0.right" timestamp="1578224631425">
       <screen x="-1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="329" key="GridCell.Tab.0.right/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578222136342" />
+    <state width="1398" height="329" key="GridCell.Tab.0.right/0.0.1280.800/-1440.0.1440.900@-1440.0.1440.900" timestamp="1578224631425" />
     <state width="1398" height="329" key="GridCell.Tab.0.right/0.23.1280.777/-1372.23.1372.877@-1372.23.1372.877" timestamp="1578216378926" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1578214941906">
       <screen x="-1440" y="0" width="1440" height="900" />
