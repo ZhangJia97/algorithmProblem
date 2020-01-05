@@ -8,35 +8,35 @@ import java.util.Stack;
  * @date 2020/1/3 20:11
  * @description //todo
  * 【题目】
- *  编写一个类，用两个栈实现队列，支持队列的基本操作（add、poll、peek）。
+ * 编写一个类，用两个栈实现队列，支持队列的基本操作（add、poll、peek）。
  */
 public class Q2_由两个栈组成的队列 {
     private Stack<Integer> stack1 = new Stack<>();
     private Stack<Integer> stack2 = new Stack<>();
 
-    public void add(int num){
+    public void add(int num) {
         stack2.push(num);
     }
 
-    public int poll(){
-        if (stack1.empty() && stack2.empty()){
+    public int poll() {
+        if (stack1.empty() && stack2.empty()) {
             throw new RuntimeException("stack is empty");
         }
         pushToPop();
         return stack1.pop();
     }
 
-    public int peek(){
-        if (stack1.empty() && stack2.empty()){
+    public int peek() {
+        if (stack1.empty() && stack2.empty()) {
             throw new RuntimeException("stack is empty");
         }
         pushToPop();
         return stack1.peek();
     }
 
-    private void pushToPop(){
-        if (stack1.empty()){
-            while (!stack2.empty()){
+    private void pushToPop() {
+        if (stack1.empty()) {
+            while (!stack2.empty()) {
                 stack1.push(stack2.pop());
             }
         }

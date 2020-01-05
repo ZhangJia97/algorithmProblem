@@ -19,31 +19,31 @@ public class Q4_猫狗队列 {
     private int catSize = 0;
     private Queue<Pet> queue = new LinkedList<>();
 
-    public void add(Pet pet){
-        if ("cat".equals(pet.getType())){
+    public void add(Pet pet) {
+        if ("cat".equals(pet.getType())) {
             catSize++;
-        }else {
+        } else {
             dogSize++;
         }
         queue.add(pet);
     }
 
-    public Pet pollAll(){
-        if (isEmpty()){
+    public Pet pollAll() {
+        if (isEmpty()) {
             throw new RuntimeException("queue is empty");
         }
         Pet pet = queue.poll();
-        if("cat".equals(pet.getType())){
+        if ("cat".equals(pet.getType())) {
             catSize--;
-        }else {
+        } else {
             dogSize--;
         }
         return pet;
     }
 
-    private Pet poll(String type){
+    private Pet poll(String type) {
         Pet pet = queue.poll();
-        if (type.equals(pet.getType())){
+        if (type.equals(pet.getType())) {
             return pet;
         }
         Pet result = poll(type);
@@ -51,31 +51,31 @@ public class Q4_猫狗队列 {
         return result;
     }
 
-    public Pet pollDog(){
-        if (isDogEmpty()){
+    public Pet pollDog() {
+        if (isDogEmpty()) {
             throw new RuntimeException("dog is empty");
         }
         dogSize--;
         return poll("dog");
     }
 
-    public Pet pollCat(){
-        if (isCatEmpty()){
+    public Pet pollCat() {
+        if (isCatEmpty()) {
             throw new RuntimeException("cat is empty");
         }
         catSize--;
         return poll("cat");
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty() {
         return catSize + dogSize == 0;
     }
 
-    public boolean isDogEmpty(){
+    public boolean isDogEmpty() {
         return dogSize == 0;
     }
 
-    public boolean isCatEmpty(){
+    public boolean isCatEmpty() {
         return catSize == 0;
     }
 
@@ -101,11 +101,11 @@ public class Q4_猫狗队列 {
         q4_猫狗队列.add(dog2);
         q4_猫狗队列.add(cat4);
         q4_猫狗队列.add(dog3);
-        while (!q4_猫狗队列.isCatEmpty()){
+        while (!q4_猫狗队列.isCatEmpty()) {
             System.out.println(q4_猫狗队列.pollCat());
         }
         System.out.println("-------");
-        while (!q4_猫狗队列.isDogEmpty()){
+        while (!q4_猫狗队列.isDogEmpty()) {
             System.out.println(q4_猫狗队列.pollDog());
         }
 

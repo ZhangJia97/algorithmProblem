@@ -15,23 +15,23 @@ import java.util.Queue;
 public class Q199_二叉树的右视图 {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if(root == null){
+        if (root == null) {
             return list;
         }
         Queue<TreeNode> queue = new LinkedList<>();
         TreeNode tmp = root;
         queue.offer(root);
         int size = 1;
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             size = queue.size();
             int val = 0;
-            while(size != 0){
+            while (size != 0) {
                 tmp = queue.poll();
                 val = tmp.val;
                 size--;
-                if(tmp.left != null)
+                if (tmp.left != null)
                     queue.add(tmp.left);
-                if(tmp.right != null)
+                if (tmp.right != null)
                     queue.add(tmp.right);
             }
             list.add(val);

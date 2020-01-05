@@ -43,11 +43,11 @@ public class Q34_在排序数组中查找元素的第一个和最后一个位置
     private int extremeInsertionIndexs(int[] nums, int target, boolean left) {
         int l = 0;
         int r = nums.length;
-        while(l < r){
+        while (l < r) {
             int mid = (l + r) / 2;
-            if(nums[mid] > target || (left && nums[mid] == target)){
+            if (nums[mid] > target || (left && nums[mid] == target)) {
                 r = mid;
-            }else{
+            } else {
                 l = mid + 1;
             }
         }

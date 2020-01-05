@@ -8,7 +8,8 @@ import java.util.List;
  * @date 2019/7/29 14:02
  */
 public class Q54_螺旋矩阵 {
-    public List<Integer> spiralOrder(int[][] matrix) {List<Integer> res = new ArrayList<>();
+    public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> res = new ArrayList<>();
         if (matrix.length == 0 || matrix[0].length == 0) {
             return res;
         }

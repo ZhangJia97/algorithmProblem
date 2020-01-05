@@ -22,12 +22,12 @@ import java.util.Arrays;
  */
 public class Q26_删除排序数组中的重复项 {
     public int removeDuplicates(int[] nums) {
-        if(nums.length == 0 || nums.length == 1){
+        if (nums.length == 0 || nums.length == 1) {
             return nums.length;
         }
         int l = 0;
-        for(int r = 0; r < nums.length; r++){
-            if(nums[l] != nums[r]){
+        for (int r = 0; r < nums.length; r++) {
+            if (nums[l] != nums[r]) {
                 nums[++l] = nums[r];
             }
         }

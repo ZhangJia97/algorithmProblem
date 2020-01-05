@@ -6,14 +6,14 @@ import java.util.Arrays;
  * @author zhangjia
  * @title Q343_整数拆分
  * @date 2019-09-21 14:22
- *
- *给定一个正整数 n，将其拆分为至少两个正整数的和，并使这些整数的乘积最大化。 返回你可以获得的最大乘积。
- *
+ * <p>
+ * 给定一个正整数 n，将其拆分为至少两个正整数的和，并使这些整数的乘积最大化。 返回你可以获得的最大乘积。
+ * <p>
  * 示例 1:
  * 输入: 2
  * 输出: 1
  * 解释: 2 = 1 + 1, 1 × 1 = 1。
- *
+ * <p>
  * 示例 2:
  * 输入: 10
  * 输出: 36
@@ -33,14 +33,14 @@ public class Q343_整数拆分 {
     }
 
     private int get(int n) {
-        if(n == 1){
+        if (n == 1) {
             return 1;
         }
-        if(nums[n] != 0){
+        if (nums[n] != 0) {
             return nums[n];
         }
         int res = Integer.MIN_VALUE;
-        for(int i = 1; i < n; i++){
+        for (int i = 1; i < n; i++) {
             res = Math.max(Math.max(res, i * (n - i)), i * get(n - i));
         }
         nums[n] = res;
@@ -50,8 +50,8 @@ public class Q343_整数拆分 {
     public int integerBreak1(int n) {
         int[] dp = new int[n + 1];
         dp[1] = 1;
-        for(int i = 2; i <= n; i++){
-            for(int j = 1; j < i; j++){
+        for (int i = 2; i <= n; i++) {
+            for (int j = 1; j < i; j++) {
                 System.out.println("----");
                 System.out.println(dp[i]);
                 System.out.println(j * (i - j));

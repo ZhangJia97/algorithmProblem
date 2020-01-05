@@ -34,7 +34,7 @@ public class Q30_串联所有单词的子串 {
     public List<Integer> findSubstring(String s, String[] words) {
         Map<String, Integer> map = new HashMap<>();
         List<Integer> res = new ArrayList<>();
-        if(s == null || s.length() == 0 || words == null || words.length == 0){
+        if (s == null || s.length() == 0 || words == null || words.length == 0) {
             return res;
         }
 
@@ -43,28 +43,28 @@ public class Q30_串联所有单词的子串 {
         }
         int wordLen = words[0].length();
         int len = words.length;
-        for(int i = 0; i < wordLen; i++){
+        for (int i = 0; i < wordLen; i++) {
             Map<String, Integer> tmpMap = new HashMap<>();
             int count = 0;
             int left = i;
             int right = i;
-            while(right + wordLen <= s.length()){
+            while (right + wordLen <= s.length()) {
                 String word = s.substring(right, right + wordLen);
                 right += wordLen;
-                if(!map.containsKey(word)){
+                if (!map.containsKey(word)) {
                     count = 0;
                     left = right;
                     tmpMap.clear();
-                }else {
+                } else {
                     tmpMap.put(word, tmpMap.getOrDefault(word, 0) + 1);
                     count++;
-                    while(tmpMap.getOrDefault(word, 0) > map.getOrDefault(word, 0)){
+                    while (tmpMap.getOrDefault(word, 0) > map.getOrDefault(word, 0)) {
                         String tmpWord = s.substring(left, left + wordLen);
                         left += wordLen;
                         count--;
                         tmpMap.put(tmpWord, tmpMap.getOrDefault(tmpWord, 0) - 1);
                     }
-                    if(count == len){
+                    if (count == len) {
                         res.add(left);
                     }
                 }
