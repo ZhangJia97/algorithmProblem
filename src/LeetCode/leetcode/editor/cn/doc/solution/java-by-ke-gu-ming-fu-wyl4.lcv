@@ -1,0 +1,32 @@
+    public void sortColors(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return;
+        }
+        int l = 0;    //记录下一个0存放的位置
+        int r = nums.length - 1;     //记录下一个2存放的位置
+        int index = 0;//遍历数组指针
+        while (l < r && index <= r) {  //当0指针和2指针相遇（没有1特殊情况）或者遍历指针到达已排好序的2，退出循环
+            if (nums[index] == 0) {   //遍历到0时，和下一个0存放的位置交换，下一个0位置+1
+                swap(nums, index, l);
+                l++;
+                if (nums[index] == 0) {   //如果换回来的还是0，说明遇到了连续的0，不应该交换，应该排下一个数
+                    index++;
+                }
+                continue;    //交换完毕，还需要检测换回来的数是否需要排序
+    
+            }
+            if (nums[index] == 2) {    //和0同理
+                swap(nums, index, r);
+                r--;
+                continue;
+            }
+            index++;      //如果是1，跳过
+        }
+    }
+    //  交换函数
+    public void swap(int[] nums, int index1, int index2) {
+        int temp = nums[index1];
+        nums[index1] = nums[index2];
+        nums[index2] = temp;
+    }
+

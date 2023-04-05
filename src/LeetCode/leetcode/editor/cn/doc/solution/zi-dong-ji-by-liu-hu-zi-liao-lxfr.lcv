@@ -1,0 +1,62 @@
+### 解题思路
+
+此处撰写解题思路
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public int myAtoi(String s) {
+        Automaton a = new Automaton();
+        for(int i = 0; i < s.length(); i ++){
+            a.get(s.charAt(i));
+        }
+        return a.ans;
+    }
+}
+class Automaton {
+    public int ans = 0;
+    public int sign = 1;
+    public String state = "start";
+    HashMap<String,String[]> map = new HashMap<String,String[]>(){{
+        put("start",new String[]{"start","signed","number","end"});
+        put("signed",new String[]{"end","end","number","end"});
+        put("number",new String[]{"end","end","number","end"});
+        put("end",new String[]{"end","end","end","end"});
+
+    }};
+
+    public void get(char c){
+        state = map.get(state)[getState(c)];
+        if(state.equals("signed")){
+            sign = c == '-' ? -1:1; 
+        }else if(state.equals("number")){
+            int digit = c -'0';
+            //注意此处Integer范围的判断，可以背一下，常用
+            if(ans > Integer.MAX_VALUE/10 || (ans == Integer.MAX_VALUE/10 && digit > Integer.MAX_VALUE%10)){
+                ans = Integer.MAX_VALUE;
+            }else if(ans < Integer.MIN_VALUE/10 || (ans == Integer.MIN_VALUE/10 && -digit < Integer.MIN_VALUE%10)){
+                ans = Integer.MIN_VALUE;
+            }else{
+                //注意最大是7结尾，最小是-8结尾，两边不等长，不能最后乘-1，不然边界上会出错
+                ans = ans*10 + digit*sign;
+            }
+        }
+
+    }
+    public int getState(char c){
+        if(c == ' '){
+            return 0;
+        }else if(c == '+' || c == '-'){
+            return 1;
+        }else if(Character.isDigit(c)){
+            return 2;
+        }else{
+            return 3;
+        }
+    }
+}
+```
+

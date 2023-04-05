@@ -1,0 +1,42 @@
+![MyVideo_1.mp4](https://leetcode.cn/problems/zigzag-conversion/solution/by-sdwwld-e904/f40d4ceb-5141-4e67-bedb-eddf8c439b57)
+
+代码如下
+
+* java
+
+```java
+    public String convert(String s, int numRows) {
+        // 如果只有一行，直接返回即可
+        if (numRows == 1)
+            return s;
+        // 每行的字符串
+        StringBuilder[] stringLine = new StringBuilder[numRows];
+        for (int i = 0; i < stringLine.length; i++) {
+            stringLine[i] = new StringBuilder();
+        }
+
+        // 1表示往下走，-1表示往上走
+        int increase = 1;
+        int line = 0;// 第几行
+        for (int i = 0; i < s.length(); i++) {
+            stringLine[line].append(s.charAt(i));
+            // 如果当前是在第一行，下一步就应该往下走
+            if (line == 0)
+                increase = 1;
+            // 如果当前是在最后一行，下一步应该往上走
+            if (line == numRows - 1)
+                increase = -1;
+            // 下一步应该到第几行
+            line += increase;
+        }
+
+        // 把上面的几行合并成一个字符串
+        StringBuilder res = new StringBuilder();
+        for (int i = 0; i < stringLine.length; i++) {
+            res.append(stringLine[i]);
+        }
+        return res.toString();
+    }
+```
+
+**B站视频**： [https://www.bilibili.com/video/BV1eA4y1S7ox](https://www.bilibili.com/video/BV1eA4y1S7ox)
